@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #FAEDCE;
+    scrollbar-color: #929b7c #929b7c;
+    scrollbar-width: thin;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    background-color: #C1CFA1;
+    width: 100%; /* Cambia a un ancho relativo */
+    height: auto;
+}
+
+header a {
+color: #ffffff;
+font-family: Yeseva_One;
+font-weight: 100%;
+font-size:x-large;
+position: absolute;
+text-decoration: none;
+top: 20%;
+transition: color 1s;
+}
+
+header a:hover {
+    color: #69804f;
+}
+
+
+header image {
+text-align: center;
+}
+
+
+
+#Link-1 {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+
+#Link-2 {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+#Link-3 {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+}
+
+#Link-4 {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+}
+
+.store-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinea las cartas hacia la derecha del contenedor */
+    gap: 20px;
+    padding: 20px;
+    margin-left: 300px; /* Espacio para el menú */
+    max-width: calc(100% - 250px); /* Limita el ancho restante */
+}
+
+
+.product-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #FEFAE0;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-card .price {
+    color: #343434;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card a {
+    color: #91b16c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    #searchInput {
+        width: 100%;
+    }
+    .product-card {
+        width: 90%;
+    }
+}
+
+footer {
+background-color: #C1CFA1;
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+
+}
+
+footer a {
+    color: #ffffff;
+    font-size:large;
+    position: absolute;
+    text-decoration: none;
+
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
